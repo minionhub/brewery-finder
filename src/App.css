@@ -1,0 +1,82 @@
+/* Base Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin: 5px 0 0;
+  font-size: 1.2rem;
+}
+
+/* Brewery List */
+.brewery-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+/* Brewery Card */
+.brewery-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.2s;
+}
+
+.brewery-card:hover {
+  transform: translateY(-5px);
+}
+
+.brewery-card h2 {
+  margin: 0 0 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.brewery-card p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #666;
+}
+
+.brewery-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.brewery-link:hover {
+  background-color: #45a049;
+}
